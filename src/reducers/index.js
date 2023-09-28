@@ -17,7 +17,7 @@ const calculateResult = (num1, num2, operation) => {
     }
 }
 
-const reducer = (state, action) => {
+export const reducer = (state, action) => {
     switch(action.type) {
         case(ADD_ONE):
             return({
@@ -42,4 +42,3 @@ const reducer = (state, action) => {
     }
 }
 
-export default reducer;
